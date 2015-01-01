@@ -1,0 +1,50 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+twi_tx_index                                                                      0x0160       1
+twi_rx_index                                                                      0x0161       1
+twi_result                                                                        0x0162       1
+tx_buffer                                                                         0x0163      80
+rx_buffer                                                                         0x01B3      80
+_base_y (alcd.lib)                                                                0x0203       4
+slave_address (twi.lib)                                                           0x0207       1
+twi_tx_buffer (twi.lib)                                                           0x0208       2
+bytes_to_tx (twi.lib)                                                             0x020A       1
+twi_rx_buffer (twi.lib)                                                           0x020B       2
+bytes_to_rx (twi.lib)                                                             0x020D       1
+twi_rx_buffer_size (twi.lib)                                                      0x020E       1
+twi_slave_rx_handler (twi.lib)                                                    0x020F       2
+twi_slave_tx_handler (twi.lib)                                                    0x0211       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+_lcd_x                                                                            R5           1
+_lcd_y                                                                            R4           1
+_lcd_maxx                                                                         R7           1
+twi_flag                                                                          R2.0      1bit
+twi_ready                                                                         R2.1      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x000AF    116
+put_buff_G100                                                                     0x00123     43
+_print_G100                                                                       0x0014E    284
+sprintf                                                                           0x0026A     48
+strlen                                                                            0x0029A     12
+strlenf                                                                           0x002A6     13
+_lcd_write_nibble_G102                                                            0x002B3     21
+_lcd_write_data                                                                   0x002C8     13
+lcd_gotoxy                                                                        0x002D5     18
+lcd_clear                                                                         0x002E7     10
+lcd_putchar                                                                       0x002F1     19
+lcd_puts                                                                          0x00304     13
+lcd_init                                                                          0x00311     43
+twi_master_init                                                                   0x0033C     38
+twi_master_trans                                                                  0x00362    100
+twi_int_handler                                                                   0x003C6    355

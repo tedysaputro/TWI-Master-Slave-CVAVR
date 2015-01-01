@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:462178EE
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\io.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavreval\inc\stdio.h"
+NODE:I LEVEL:0 LINE:26 "C:\cvavreval\inc\string.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavreval\inc\delay.h"
+NODE:I LEVEL:0 LINE:29 "C:\cvavreval\inc\alcd.h"
+NODE:I LEVEL:0 LINE:30 "C:\cvavreval\inc\delay.h"
+NODE:I LEVEL:0 LINE:34 "C:\cvavreval\inc\twi.h"
+NODE:M LEVEL:0 LINE:36 "TWI_SLAVE_ADDR"
+NODE:V LEVEL:0 LINE:37 "tx_buffer -> RAM:????"
+NODE:V LEVEL:0 LINE:38 "rx_buffer -> RAM:????"
+NODE:C LEVEL:0 LINE:40 "status_msg -> FLASH"
+NODE:F LEVEL:0 LINE:51 "main(void)"
